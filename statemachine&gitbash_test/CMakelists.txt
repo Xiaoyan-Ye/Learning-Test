@@ -1,0 +1,18 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+SET(CMAKE_C_COMPILER gcc)
+SET(CMAKE_CXX_COMPILER g++)
+
+PROJECT(Traffic_light)
+
+ADD_SUBDIRECTORY(button)
+ADD_SUBDIRECTORY(task)
+
+
+aux_source_directory(. DIR_SRCS)
+add_executable(state_v2 ${DIR_SRCS})
+
+
+target_link_libraries(state_v2 task button)
+
+
+

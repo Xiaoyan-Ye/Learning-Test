@@ -1,0 +1,18 @@
+---- gRenderer Matches (17 in 2 files) ----
+Led.cpp:SDL_Renderer* gRendererA = NULL;
+Led.cpp:        newTexture = SDL_CreateTextureFromSurface( gRendererA, loadedSurface );
+Led.cpp:    SDL_RenderSetViewport( gRendererA, &CountRenderQuad );
+Led.cpp:    SDL_RenderCopy( gRendererA, gTextureA, &clip, &CountRenderQuad );
+Led.cpp:    SDL_RenderPresent( gRendererA );
+Roadled.cpp:SDL_Renderer* gRenderer = NULL;
+Roadled.cpp:             gRenderer = SDL_CreateRenderer( gWindow, -1, SDL_RENDERER_ACCELERATED );
+Roadled.cpp:             if( gRenderer == NULL )
+Roadled.cpp:                 SDL_SetRenderDrawColor( gRenderer, 0xFF, 0xFF, 0xFF, 0xFF );
+Roadled.cpp:        newTexture = SDL_CreateTextureFromSurface( gRenderer, loadedSurface );
+Roadled.cpp:				SDL_RenderSetViewport( gRenderer, &topLeftViewport );
+Roadled.cpp:				SDL_RenderCopy( gRenderer, gTexture, &gSpriteClips,&renderQuad );
+Roadled.cpp:				SDL_RenderPresent( gRenderer );
+Roadled.cpp:				SDL_RenderSetViewport( gRenderer, &topLeftViewport );
+Roadled.cpp:               // SDL_RenderCopyEx( gRenderer, gTexture, &topLeftViewport, &renderQuad,
+Roadled.cpp:				SDL_RenderCopy( gRenderer, gTexture, &gSpriteClips,&renderQuad );
+Roadled.cpp:				SDL_RenderPresent( gRenderer );

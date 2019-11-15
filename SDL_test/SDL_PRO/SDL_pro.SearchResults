@@ -1,0 +1,11 @@
+---- gSpriteClips Matches (10 in 1 files) ----
+17_mouse_events.cpp (button_test):SDL_Rect gSpriteClips;
+17_mouse_events.cpp (button_test):	gButtonSpriteSheetTexture.render( mPosition.x, mPosition.y, &gSpriteClips );
+17_mouse_events.cpp (button_test):            gSpriteClips.x = 350;
+17_mouse_events.cpp (button_test):			gSpriteClips.y = 150;
+17_mouse_events.cpp (button_test):			gSpriteClips.w = 100;
+17_mouse_events.cpp (button_test):			gSpriteClips.h = 100;
+17_mouse_events.cpp (button_test):            gSpriteClips.x = 350;
+17_mouse_events.cpp (button_test):			gSpriteClips.y = 150;
+17_mouse_events.cpp (button_test):			gSpriteClips.w = 100;
+17_mouse_events.cpp (button_test):			gSpriteClips.h = 100;

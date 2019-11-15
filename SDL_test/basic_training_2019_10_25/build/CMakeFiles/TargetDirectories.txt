@@ -1,0 +1,3 @@
+C:/Users/mwang9/Downloads/Workspace/test/SDL_test/basic_training_2019_10_25/build/CMakeFiles/SDL_test.dir
+C:/Users/mwang9/Downloads/Workspace/test/SDL_test/basic_training_2019_10_25/build/CMakeFiles/edit_cache.dir
+C:/Users/mwang9/Downloads/Workspace/test/SDL_test/basic_training_2019_10_25/build/CMakeFiles/rebuild_cache.dir

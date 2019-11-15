@@ -1,0 +1,18 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
+SET(CMAKE_C_COMPILER gcc)
+SET(CMAKE_CXX_COMPILER g++)
+
+PROJECT(HELLO)
+include_directories(./Hello)
+link_directories(./Hello)
+
+#ADD_SUBDIRECTORY(Hello)
+
+aux_source_directory(. DIR_SRCS)
+add_executable(Test1 ${DIR_SRCS})
+
+
+target_link_libraries(Test1 Hello)
+
+
+#ADD_SUBDIRECTORY(Test)

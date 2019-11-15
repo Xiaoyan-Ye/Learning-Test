@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/button/button.h
+
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/main.h
+
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/task/task.c
+stdio.h
+-
+task.h
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/task/task.h
+../button/button.h
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/button/button.h
+../main.h
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/main.h
+
+C:/Users/mwang9/Downloads/Documents/ITC_OJT/statemachine/statemachine_V2/task/task.h
+

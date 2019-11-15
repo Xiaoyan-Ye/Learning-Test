@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/mwang9/Downloads/Workspace/test/SDL_test/basic_training/sdl_test.cpp
+SDL.h
+-
+stdio.h
+-
+string
+-
+
